@@ -1,0 +1,36 @@
+.images {
+    background-image: url(/images/background.jpeg);
+    background-repeat: no-repeat;
+    width: 100em;   
+    height: 800px;
+    background-size: cover;
+}
+body{
+    background-image: url(/images/backgroun.jpeg);
+    background-repeat: no-repeat;
+    width: 100em;
+    height: 800px;
+    background-size: cover;
+}
+
+.box{
+    margin-top: 200px;
+}
+
+.child_cont{
+    width: 500px;
+    background: white;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 70%);
+    margin-left:130px ;
+    margin-top: 90px;
+    border-radius: 10px;
+}
+.child_cont h2{
+    color: rgb(25, 151, 109);
+}
+.child_cont button{
+    color: white;
+    background-color: rgb(223, 115, 76);
+}

@@ -1,0 +1,54 @@
+create database shopping;
+
+create table Product(
+ productId numeric(10) ,
+ productName varchar(40),
+ productPrice numeric(10),
+ quantity numeric(4)
+ );
+
+
+create table Customer(
+ customerID numeric(10) ,
+ customerName varchar(40),
+ mobileNumber numeric(10),
+ emailId varchar(40)
+ );
+
+
+insert into Product values (110032 , "SAMSUNG Mobile" , 17000 ,2);
+
+insert into Product values (110041 , "MacBook Pro" , 147000 ,1);
+
+insert into Product values (110053 , "Hp Probook" , 83400 ,4);
+
+insert into Product values (110143 ,"Dell laptop" , 73800 ,6);
+
+insert into Product values (110163 ,"iPhone13" , 110800 ,6);
+
+Select * from Product;
+
+
+—insert into customer table data
+
+
+insert into Customer values (1813001 ,
+ "Abhishek Bansal",
+ 8800525597,
+ "bansal@gmail.com");
+
+insert into Customer values (1810034 ,
+ “Kartik ",
+ 348345389,
+ “bhargav@gmail.com");
+
+insert into Customer values (1810034 ,
+ "Himanshu ",
+ 2834923424,
+ "saini343@gmail.com");
+
+Select *n from Customer;
+	
+	
+
+
